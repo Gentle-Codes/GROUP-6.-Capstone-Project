@@ -1,90 +1,114 @@
-# GROUP-6.-Capstone-Project#
-## React + Vite
+# 🌌 Explore Our Solar System Through Data
+### TsAcademy Capstone Project — Group 6
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
- Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can eject at any time.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+A visually immersive web application that allows users to explore and understand our solar system through interactive data, planetary comparisons, and stunning visuals.
 
 ---
 
-## Contact Form Feature (Added in this branch)
-This branch adds a working **contact form** with validation:
+## 🚀 Live Demo
+> _Link will be added upon deployment_
 
-- Full name, email, subject, and message fields  
-- Validates input before submission  
-- Shows success message after sending  
+---
+
+## 📋 Project Overview
+
+This project presents planetary data in an engaging, educational format. Users can:
+- Learn how planetary data helps us understand space
+- Visualize differences between planets
+- View a **Planetary Facts at a Glance** data table
+- Ask questions via a built-in contact form
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React (Vite) | Frontend framework |
+| CSS | Styling & dark space theme |
+| JavaScript | Logic & interactivity |
+| Git & GitHub | Version control & collaboration |
+
+---
+
+## 👥 Team Members
+
+| Name | Role |
+|------|------|
+| Adeyemi  | Team Lead — Repository setup, collaborator management & coordinating group work |
+| Philomena | Contact Form |
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+- Node.js installed
+- Git installed
+
+### Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Gentle-Codes/GROUP-6.-Capstone-Project.git
+
+# 2. Navigate into the project folder
+cd GROUP-6.-Capstone-Project
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
+```
+
+Then open your browser and go to `http://localhost:5173`
+
+---
+
+## 🌿 Branching Strategy
+
+Each team member works on their own branch:
+
+```bash
+# Create your branch
+git checkout -b feature/your-name
+
+# Push your changes
+git add .
+git commit -m "Your commit message"
+git push origin feature/your-name
+```
+
+Open a **Pull Request** on GitHub for review before merging into `main`.
+
+> ⚠️ Do NOT push directly to `main`
+
+---
+
+## 📁 Project Structure
+
+```
+GROUP-6.-Capstone-Project/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 📬 Contact
+
+For questions or contributions, open an issue on the [GitHub repository](https://github.com/Gentle-Codes/GROUP-6.-Capstone-Project).
+
+---
+
+_© 2026 TsAcademy — Group 6 Capstone Project_
