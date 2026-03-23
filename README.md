@@ -36,7 +36,7 @@ This project presents planetary data in an engaging, educational format. Users c
 | Name | Role |
 |------|------|
 | Adeyemi  | Team Lead — Repository setup, collaborator management & coordinating group work |
-| Philomena | Git conflict resolution & Contact Form |
+| Philomena | Contact Form |
 
 ---
 
