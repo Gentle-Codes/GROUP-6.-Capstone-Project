@@ -1,16 +1,114 @@
-# React + Vite
+# 🌌 Explore Our Solar System Through Data
+### TsAcademy Capstone Project — Group 6
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visually immersive web application that allows users to explore and understand our solar system through interactive data, planetary comparisons, and stunning visuals.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
+> _Link will be added upon deployment_
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📋 Project Overview
 
-## Expanding the ESLint configuration
+This project presents planetary data in an engaging, educational format. Users can:
+- Learn how planetary data helps us understand space
+- Visualize differences between planets
+- View a **Planetary Facts at a Glance** data table
+- Ask questions via a built-in contact form
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React (Vite) | Frontend framework |
+| CSS | Styling & dark space theme |
+| JavaScript | Logic & interactivity |
+| Git & GitHub | Version control & collaboration |
+
+---
+
+## 👥 Team Members
+
+| Name | Role |
+|------|------|
+| Adeyemi  | Team Lead — Repository setup, collaborator management & coordinating group work |
+| Philomena | Git conflict resolution & Contact Form |
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+- Node.js installed
+- Git installed
+
+### Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Gentle-Codes/GROUP-6.-Capstone-Project.git
+
+# 2. Navigate into the project folder
+cd GROUP-6.-Capstone-Project
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
+```
+
+Then open your browser and go to `http://localhost:5173`
+
+---
+
+## 🌿 Branching Strategy
+
+Each team member works on their own branch:
+
+```bash
+# Create your branch
+git checkout -b feature/your-name
+
+# Push your changes
+git add .
+git commit -m "Your commit message"
+git push origin feature/your-name
+```
+
+Open a **Pull Request** on GitHub for review before merging into `main`.
+
+> ⚠️ Do NOT push directly to `main`
+
+---
+
+## 📁 Project Structure
+
+```
+GROUP-6.-Capstone-Project/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 📬 Contact
+
+For questions or contributions, open an issue on the [GitHub repository](https://github.com/Gentle-Codes/GROUP-6.-Capstone-Project).
+
+---
+
+_© 2026 TsAcademy — Group 6 Capstone Project_
