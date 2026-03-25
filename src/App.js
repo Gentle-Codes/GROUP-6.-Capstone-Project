@@ -1,16 +1,12 @@
-// src/App.js
-import React from 'react';
 import ContactForm from './components/ContactForm';
-import './styles/ContactForm.css'; // make sure this path matches where you saved your CSS
+import Planets from './components/Planets';
 
 function App() {
   return (
-    <div className="App">
-      
-
-      {/* Contact Form */}
+    <>
+      <Planets />
       <ContactForm />
-    </div>
+    </>
   );
 }
 
