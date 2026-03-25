@@ -1,0 +1,203 @@
+/* ================================
+   responsive.css — Person 7
+   Import this AFTER global.css
+   in your main.jsx or index.js
+================================ */
+
+/* ================================
+   HEADER
+================================ */
+@media (max-width: 768px) {
+  .header__nav {
+    display: none;
+  }
+
+  .header__hamburger {
+    display: flex;
+  }
+
+  .header__mobile-menu--open {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header__mobile-link {
+    padding: 16px 24px;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(100, 180, 255, 0.08);
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@media (max-width: 420px) {
+  .header__inner {
+    padding: 12px 16px;
+  }
+}
+
+/* ================================
+   HERO SECTION
+================================ */
+@media (max-width: 768px) {
+  .hero__heading {
+    font-size: clamp(1.9rem, 6vw, 2.8rem);
+  }
+
+  .hero__subheading {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero__content {
+    padding: 0 16px;
+  }
+
+  .hero__heading {
+    font-size: clamp(1.6rem, 7vw, 2.2rem);
+    margin-bottom: 12px;
+  }
+
+  .hero__subheading {
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+  }
+
+  .hero__cta {
+    width: 100%;
+    max-width: 280px;
+    padding: 14px 24px;
+    min-height: 48px;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero__heading {
+    font-size: 1.5rem;
+  }
+}
+
+/* ================================
+   PLANETS SECTION
+================================ */
+@media (max-width: 900px) {
+  .planets-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .planets-section {
+    padding: 80px 20px;
+  }
+
+  .planets-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .planets-heading {
+    font-size: 1.8rem;
+  }
+
+  .planets-subheading {
+    font-size: 0.9rem;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .planets-section {
+    padding: 64px 16px;
+  }
+
+  .planets-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .planets-heading {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .planets-subheading {
+    text-align: center;
+  }
+
+  .planet-name {
+    font-size: 0.82rem;
+  }
+
+  .distance-value {
+    font-size: 0.78rem;
+  }
+
+  .planet-caption {
+    padding: 10px 12px 14px;
+  }
+}
+
+@media (max-width: 420px) {
+  .planets-grid {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+/* ================================
+   CONTACT FORM
+================================ */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 80px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-section {
+    padding: 64px 16px;
+  }
+
+  .contact-section input,
+  .contact-section textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .submit-btn {
+    width: 100%;
+    min-height: 48px;
+  }
+}
+
+/* ================================
+   FOOTER
+================================ */
+@media (max-width: 600px) {
+  .footer__link,
+  .footer__scroll-link {
+    min-height: 40px;
+  }
+}
+
+/* ================================
+   GLOBAL FIXES
+================================ */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  h1 { font-size: clamp(1.6rem, 5vw, 2.5rem); }
+  h2 { font-size: clamp(1.4rem, 4vw, 2rem); }
+  h3 { font-size: clamp(1.1rem, 3vw, 1.5rem); }
+}
+
+@media (max-width: 600px) {
+  h1 { font-size: clamp(1.4rem, 6vw, 2rem); }
+  h2 { font-size: clamp(1.2rem, 5vw, 1.6rem); }
+}
