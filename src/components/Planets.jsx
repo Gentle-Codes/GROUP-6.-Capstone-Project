@@ -3,6 +3,7 @@ import PlanetCard from './PlanetCard';
 import LoadingSpinner from './LoadingSpinner';
 import ErrorMessage from './ErrorMessage';
 import '../styles/Planets.css';
+
 function Planets() {
   const [planets, setPlanets] = useState([]);
   const [loading, setLoading] = useState(true);
