@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* SECTION */
+.planet-table-section {
+  width: 100%;
+  padding: 60px 0;
+  background: #ffffff; /* ✅ white like mockup */
+}
+
+/* CONTAINER */
+.table-container {
+  width: 88%;
+  max-width: 1020px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+/* TITLE */
+.planet-table-title {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2454c6;
+  margin-bottom: 12px;
+}
+
+/* DESCRIPTION */
+.planet-table-text {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: #42516b;
+  line-height: 1.6;
+  max-width: 650px;
+  margin-bottom: 20px;
+}
+
+/* NOTE */
+.table-note {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #34435c;
+  margin-bottom: 14px;
+}
+
+/* TABLE WRAPPER */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* TABLE */
+.planet-table {
+  width: 100%;
+  border-collapse: separate;   /* ✅ IMPORTANT */
+  border-spacing: 2px;         /* ✅ creates white lines */
+  background: #ffffff;         /* ✅ shows through gaps */
+  font-family: "Inter", sans-serif;
+}
+
+/* HEADER */
+.planet-table th {
+  background: #2a5db8;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 16px 14px;
+  text-align: center;
+}
+
+/* BODY CELLS */
+.planet-table td {
+  background: #eef3fb;
+  font-size: 13px;
+  font-weight: 500;
+  color: #2f3747;
+  padding: 18px 14px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* CATEGORY CELLS (Terrestrial, Jovian, etc.) */
+.group-cell {
+  background: #dfe8f8 !important;
+  font-weight: 700;
+  color: #2b3445;
+  vertical-align: middle;
+}
+
+/* PLANET NAME (slightly stronger than numbers) */
+.data-cell {
+  font-weight: 600;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .planet-table-title {
+    font-size: 18px;
+  }
+
+  .planet-table-text {
+    font-size: 11px;
+  }
+
+  .table-note {
+    font-size: 10px;
+  }
+
+  .planet-table th,
+  .planet-table td {
+    font-size: 11px;
+    padding: 14px 10px;
+  }
+}
