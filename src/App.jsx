@@ -1,16 +1,12 @@
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Footer from './components/Footer';
-import './App.css';
+import VideoSection from './components/VideoSection'
+import './App.css'
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Footer />
+      <VideoSection />
     </>
   );
 }
 
-export default App;
+export default App
