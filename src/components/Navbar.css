@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #051540;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.logo-img {
+  width: 80px;
+  height: 70px;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    justify-content: center;
+  }
+}
