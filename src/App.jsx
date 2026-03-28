@@ -1,11 +1,11 @@
+import Footer from './components/Footer';
+import './App.css';
+
 function App() {
   return (
-    <div>
-      <h1>APP WORKING</h1>
-    </div>
+    <>
+      <Footer />
+    </>
   );
 }
-
-export default App;
-
 
