@@ -1,6 +1,6 @@
 .planets-section {
   padding: 60px 24px;
-  background: #ffffff;
+  background: #F2F7FF;
 }
 
 .visualizing-section {
@@ -51,19 +51,28 @@
 .planet-info {
   background: #f1f5ff;
   padding: 10px 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* ✅ horizontal centering */
+  justify-content: center;
+  text-align: center;
 }
 
 .planet-card h4 {
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   color: #0f172a;
   font-weight: 600;
+  text-align: center;
   margin-bottom: 4px;
 }
 
 .planet-card p {
-  font-size: 0.55rem;
+  font-size: 0.75rem;
   color: #64748b;
+  text-align: center;
   margin: 0;
+  font-weight: 600;
   line-height: 1.4;
 }
 
