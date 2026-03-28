@@ -6,7 +6,7 @@ function App() {
     <>
       <VideoSection />
     </>
-  )
+  );
 }
 
 export default App
