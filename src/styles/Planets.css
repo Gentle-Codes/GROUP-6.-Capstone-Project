@@ -77,37 +77,7 @@
 }
 
 @media (max-width: 768px) {
-  .planets-section {
-    padding: 40px 16px;
-  }
-
-  .visualizing-section {
-    margin-bottom: 28px;
-  }
-
-  .visualizing-heading {
-    font-size: 0.85rem;
-  }
-
-  .visualizing-text {
-    font-size: 0.6rem;
-  }
-
-  .planets-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    max-width: 320px;
-  }
-
-  .planet-image {
-    height: 80px;
-  }
-
-  .planet-card h4 {
-    font-size: 0.6rem;
-  }
-
-  .planet-card p {
-    font-size: 0.5rem;
+  .planet-table-section {
+    display: none;
   }
 }
