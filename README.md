@@ -37,7 +37,8 @@ This project presents planetary data in an engaging, educational format. Users c
 |------|------|
 | Adeyemi  | Team Lead — Repository setup, collaborator management & coordinating group work |
 | Philomena | Contact Form |
-
+| Philomena & David | Planets Table |
+|  David | Deployment |
 ---
 
 ## ⚙️ Getting Started
