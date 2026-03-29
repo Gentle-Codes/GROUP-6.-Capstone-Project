@@ -4,7 +4,7 @@ import VideoSection from './components/VideoSection';
 import Planets from './components/Planets';
 import PlanetTable from './components/PlanetTable';
 import ContactForm from './components/ContactForm';
-import Footer from './components/Footer';
+import Footer from './components/footer';
 import './App.css';
 
 function App() {
