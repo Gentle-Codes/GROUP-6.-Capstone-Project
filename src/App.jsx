@@ -1,12 +1,12 @@
-import VideoSection from './components/VideoSection'
-import './App.css'
+import Footer from './components/Footer';
+import './App.css';
 
 function App() {
   return (
     <>
-      <VideoSection />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
