@@ -6,7 +6,7 @@ A visually immersive web application that allows users to explore and understand
 ---
 
 ## 🚀 Live Demo
-> _Link will be added upon deployment_
+> https://group-6-capstone-project.vercel.app/
 
 ---
 
@@ -35,8 +35,9 @@ This project presents planetary data in an engaging, educational format. Users c
 
 | Name | Role |
 |------|------|
-| Adeyemi  | Team Lead — Repository setup, collaborator management & coordinating group work |
-| Philomena | Contact Form |
+| Adeyemi  | Team Lead — Repository setup, collaborator management, coordinating group work, deployment & Video section|
+| Philomena | Contact Form & Planet Card|
+| David | Planet Table |
 
 ---
 
