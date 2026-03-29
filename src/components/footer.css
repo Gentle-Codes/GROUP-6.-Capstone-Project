@@ -81,8 +81,4 @@
     align-items: flex-start;
     gap: 16px;
   }
-
-  .footer-brand {
-    align-self: flex-start;
-  }
 }
