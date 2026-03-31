@@ -1,6 +1,10 @@
-/* ========================= */
 /* YOUR BRANCH / VITE STYLES */
-/* ========================= */
+* {
+  font-family: 'Inter' !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 :root {
   --text: #6b6375;
@@ -58,7 +62,7 @@ body {
   margin: 0;
 }
 
-/* Your branch root / #root styling */
+/* branch root / #root styling */
 #root {
   width: 1126px;
   max-width: 100%;
@@ -117,9 +121,7 @@ code {
   background: var(--code-bg);
 }
 
-/* ========================= */
 /* MAIN / CRA STYLES */
-/* ========================= */
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

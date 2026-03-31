@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-about">
           <h3 className="footer-heading">About</h3>
           <p className="footer-description">
-            A data-driven solar system project built by a passionate team of developers.
+            A data-driven solar system project built by a passionate team of developers.<br/>
             Meet the team: Adeyemi, Philomena, Emeka, David, Chidubem, George & Precious.
           </p>
         </div>
